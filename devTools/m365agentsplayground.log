@@ -1,0 +1,20 @@
+debug Telemetry: agents-playground-cli/cliStart {"cleanProperties":{"isExec":"false","argv":"<REDACTED: user-file-path>,<REDACTED: user-file-path>"}}
+
+log Listening on 56150
+log Microsoft 365 Agents Playground is being launched for you to debug the app: http://localhost:56150
+debug started web socket client
+debug started web socket client
+log Waiting for connection of endpoint: http://127.0.0.1:3978/api/messages
+log waiting for 1 resources: http://127.0.0.1:3978/api/messages
+log wait-on(20520) complete
+log Events recording disabled.
+debug Telemetry: agents-playground-server/eventsRecording {"cleanProperties":{"enabled":"false"}}
+
+debug Telemetry: agents-playground-server/getConfig {"cleanProperties":{"internalConfig":"{\"locale\":\"en-IN\",\"localTimezone\":\"Asia/Calcutta\",\"channelId\":\"msteams\",\"debugConfig\":{\"eventsRecordingEnabled\":false}}"}}
+
+debug Telemetry: agents-playground-server/sendActivity {"cleanProperties":{"activityType":"installationUpdate","conversationId":"fd7dcb45-90ab-455f-8ca9-7ec43056c825","headers":"{\"x-ms-agents-playground\":\"true\"}"}}
+
+debug Telemetry: agents-playground-server/sendActivity {"cleanProperties":{"activityType":"conversationUpdate","conversationId":"fd7dcb45-90ab-455f-8ca9-7ec43056c825","headers":"{\"x-ms-agents-playground\":\"true\"}"}}
+
+debug Telemetry: agents-playground-server/sendActivity {"cleanProperties":{"activityType":"message","conversationId":"fd7dcb45-90ab-455f-8ca9-7ec43056c825","headers":"{\"x-ms-agents-playground\":\"true\"}"}}
+
